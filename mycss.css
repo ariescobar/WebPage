@@ -1,0 +1,128 @@
+body {background-color: #4fbb87}
+
+.food{
+    margin: auto;
+    width: 80%;
+    padding: 0px;
+  }
+
+.topnav{
+  background-color: #B04478;
+  overflow: hidden;
+}
+
+.topnav a{
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Contact{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+h1{
+  font-size: 100px;
+  text-align: center;
+  color: white;  
+  padding-top: 40px;
+  padding-bottom:40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 15px solid #B04478;
+}
+
+.picturesAligned {
+  float: right;  
+  margin-left: 2cm;
+}
+
+.picturesAligned2 {
+  float: left;  
+  margin-right: 2cm;
+}
+
+.titles {
+font-size: x-large;
+font-style: italic;
+}
+.titlesRecipes {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  }
+.steps {
+  font-size: large;
+  font-weight: bold;
+  }
+
+.procedure {
+
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4fbb87;
+  border: 5px solid #B04478;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 50px;
+}
+
+#comforts {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
+
+#bakes {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
+
+#salads {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
+
+#snacks {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
+.hidden{
+  visibility: hidden;
+}
